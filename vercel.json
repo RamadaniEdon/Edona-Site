@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/PDFportfolio",
-      "destination": "/portfolio.pdf"
+      "destination": "/portfolio.html"
     }
   ]
 }
