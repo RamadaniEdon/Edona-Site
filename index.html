@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edonara</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="./favicon-48x48.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <link rel="icon" href="./favicon-32x32.png">
+
+  <link href="./style.css" rel="stylesheet" />
+  <style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body {
+    background-color: #F7F3ED;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    width: 438px;
+    position: relative;
+  }
+  .title {
+    font-size: 90.62px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 82%;
+  }
+  .desc {
+    color: #BABABA;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0;
+    margin-top: 18.5rem;
+  }
+  .darker {
+    color: #242426;
+  }
+  .image {
+    position: absolute;
+    top: 4.6rem;
+  }
+  @media (max-width: 768px) { 
+    .main {
+      width: 300px;
+    }
+    .title {
+      font-size: 63px;
+    }
+    .image{
+      width: 305px;
+      top: 3.2rem
+    }
+    .desc{
+      margin-top: 13.2rem;
+      font-size: 11px;
+    }
+  }
+  </style>
 </head>
 <body>
-  <h1>Welcome</h1>
-  <ul>
-    <li><a href="./email-portfolio">Email Portfolio</a></li>
-    <li><a href="./other-portfolio">Other Portfolio</a></li>
-  </ul>
+  <div class="main">
+    <p class="title">WORK IN PROGRESS</p>
+    <img class="image" src="./edonara.png" alt="Edonara">
+    <p class="desc">I’ve been a little busy, so my website is still under construction. For those who don’t believe me, I even drew myself working so you can see just how busy I am. Also, this was never really meant to reach anyone, and if it did, I apologize. But since you’re already here ummm, hi... <span class="darker">My name is Edona, and I’m a graphic designer :)</span></p>
+  </div>
 </body>
 </html>

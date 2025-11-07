@@ -1,0 +1,61 @@
+/* Regular */
+@font-face {
+  font-family: 'FamiljenGroteskGF';
+  src: url('./fonts/FamiljenGroteskGF-Regular.woff2') format('woff2'),
+       url('./fonts/FamiljenGroteskGF-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'FamiljenGroteskGF';
+  src: url('./fonts/FamiljenGroteskGF-Medium.woff2') format('woff2'),
+       url('./fonts/FamiljenGroteskGF-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: 'FamiljenGroteskGF';
+  src: url('./fonts/FamiljenGroteskGF-MediumItalic.woff2') format('woff2'),
+       url('./fonts/FamiljenGroteskGF-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'FamiljenGroteskGF';
+  src: url('./fonts/FamiljenGroteskGF-Bold.woff2') format('woff2'),
+       url('./fonts/FamiljenGroteskGF-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'FamiljenGroteskGF';
+  src: url('./fonts/FamiljenGroteskGF-BoldItalic.woff2') format('woff2'),
+       url('./fonts/FamiljenGroteskGF-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Italic (Regular Italic) */
+@font-face {
+  font-family: 'FamiljenGroteskGF';
+  src: url('./fonts/FamiljenGroteskGF-Italic.woff2') format('woff2'),
+       url('./fonts/FamiljenGroteskGF-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Example usage */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'FamiljenGroteskGF', sans-serif;
+}
